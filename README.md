@@ -12,7 +12,7 @@ An interactive demo of DetectGPT can be found [here](https://detectgpt.ericmitch
     `$ pip install -r requirements.txt` <br/>
   
 2. Second, run main.py file (or any of the scripts in `paper_scripts/`): <br/>
-`python main.py --base_model_name gpt2 --mask_filling_model_name t5-small --DEVICE cuda`
+`python run.py --base_model_name gpt2 --mask_filling_model_name t5-small --DEVICE cuda`
 
 3. If you'd like to run the WritingPrompts experiments, you'll need to download the WritingPrompts data from [here](https://www.kaggle.com/datasets/ratthachat/writing-prompts). Save the data into a directory `data/writingPrompts`.
  

@@ -42,7 +42,7 @@ if __name__ == "__main__":
     parser.add_argument('--random_fills', action='store_true')
     parser.add_argument('--random_fills_tokens', action='store_true')
     parser.add_argument('--cache_dir', type=str, default="cache")
-    parser.add_argument('--DEVICE', type=str, default ='cpu', choices=['cpu', 'cuda'])
+    parser.add_argument('--DEVICE', type=str, default ='cuda', choices=['cpu', 'cuda'])
     args = parser.parse_args()
 
     config = {}
